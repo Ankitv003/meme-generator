@@ -5,7 +5,8 @@
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
-  background-image: url(/public/images/cool-background-2.png);
+  /* background-image: url(/public/images/xcool-background-2.png); */
+  background-color: #342e41;
   background-size: cover;
 }
 
@@ -17,9 +18,9 @@ main {
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(145deg, #a40b0b, #c30d0d);
-  box-shadow: 5px 5px 0px #490505, -5px -5px 0px #ff1313;
-  color: white;
+  background: linear-gradient(145deg, #2a2537, #342e41);
+  box-shadow: 0 2px 10px #6c638b;
+  color: #fdddb4;
   padding: 20px;
 }
 
@@ -52,23 +53,25 @@ main {
   border-radius: 5px;
   border: 1px solid #d5d4d8;
   text-indent: 5px;
+  background-color: #a5a7b6;
 }
 
 .form--button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
   border-radius: 3px;
-  background: linear-gradient(145deg, #a40b0b, #c30d0d);
-  box-shadow: 5px 5px 0px #490505, -5px -5px 0px #ff1313;
-  color: white;
+  /* background: linear-gradient(145deg, #a40b0b, #c30d0d);
+  box-shadow: 5px 5px 0px #490505, -5px -5px 0px #ff1313; */
+  background-color: #fdddb4;
+  color: #2a2537;
   border: none;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .form--button:hover {
-  background-color: #fff;
-  color: gold;
-  box-shadow: 5px 5px 0px #ff5252;
+  background-color: #6c638b;
+  color: #fdddb4;
 }
 
 .meme {
@@ -115,8 +118,8 @@ main {
   font-size: 2rem;
 }
 
-@media (max-width: 412px) {
-  .header {
+@media (max-width: 350px) {
+  /* .header {
     width: 110%;
   }
   .form {
@@ -127,5 +130,5 @@ main {
   .header--project {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
 }
