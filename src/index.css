@@ -62,15 +62,16 @@ main {
   border-radius: 3px;
   /* background: linear-gradient(145deg, #a40b0b, #c30d0d);
   box-shadow: 5px 5px 0px #490505, -5px -5px 0px #ff1313; */
-  background-color: #fdddb4;
-  color: #2a2537;
+  background-color: #8576b9;
+  color: #0a0a0a;
   border: none;
   cursor: pointer;
   font-weight: 700;
 }
 
-.form--button:hover {
-  background-color: #6c638b;
+.form--button:hover,
+.form--button:focus-visible {
+  background-color: #423081;
   color: #fdddb4;
 }
 
@@ -118,17 +119,40 @@ main {
   font-size: 2rem;
 }
 
-@media (max-width: 350px) {
-  /* .header {
-    width: 110%;
+@media (max-width: 500px) {
+  main {
+    padding: 2em;
+    width: 95%;
   }
   .form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .header--project {
+  .form--input {
+    padding: 0.5em;
+    text-align: center;
+  }
+  .form--button {
+    padding: 1em;
+  }
+  .meme {
+    background-color: #1c0f3d;
+  }
+  .header {
     display: flex;
-    flex-wrap: wrap;
-  } */
+  }
+  .header--image {
+    height: 90%;
+    margin-right: 6px;
+  }
+  .header--title {
+    font-size: 1.1rem;
+    margin-right: auto;
+  }
+
+  .header--project {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
 }
