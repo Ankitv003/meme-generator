@@ -41,7 +41,7 @@ main {
 
 .form {
   display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
+  grid-template: 40px 40px 40px / 1fr 1fr;
   gap: 17px;
   margin-bottom: 17px;
   /* display: flex;
@@ -117,6 +117,11 @@ main {
 .top {
   top: 5px;
   font-size: 2rem;
+}
+label {
+  /* text-align: center; */
+  color: #fdddb4;
+  font-weight: 900;
 }
 
 @media (max-width: 500px) {
